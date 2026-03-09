@@ -822,13 +822,3 @@ st.markdown(
     """,
     unsafe_allow_html=True,
 )
-
-st.markdown("---")
-st.markdown(
-    """
-    <div class="footer">
-        © 2026 AWS Cloud Clubs – Mecs &nbsp;|&nbsp; Built with 💜 and Streamlit
-    </div>
-    """,
-    unsafe_allow_html=True,
-)
