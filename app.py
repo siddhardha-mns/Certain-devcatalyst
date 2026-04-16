@@ -757,7 +757,7 @@ elif mode == "🔧 Admin Panel":
             name_y = st.number_input("Name Y Position (vertical)",
                                      min_value=0,
                                      value=st.session_state.config['name_y'])
-            font_size = st.slider("Font Size", 20, 150,
+            font_size = st.slider("Font Size", 20, 250,
                                   st.session_state.config['font_size'])
         
         with col2:
